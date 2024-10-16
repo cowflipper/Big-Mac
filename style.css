@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/1200_600.png)
+}
+
+.hidden{
+    display: none;
+}
+
+.divBtnStart{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnStart{
+    height: 50px;
+    width: 160px;
+    border: 2px solid orange;
+}
+
+.btnStart:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.btnStart:active {
+    transform: scale(1.3);
+}
+.button{
+    width: 70px;
+    height: 20px;
+}
+
+.btnMss{
+    width: 80px;
+    height: 50px;
+}
+
+
