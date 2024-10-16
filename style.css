@@ -8,9 +8,22 @@ body{
     background-image: url(assets/1200_600.png)
 }
 
+h1 {
+    font-size: 100px;
+}
+.div_2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
 .hidden{
     display: none;
 }
+
+/* .div_3{
+    display: none;
+} */
 
 .divBtnStart{
     height: 100vh;
@@ -42,5 +55,11 @@ body{
     width: 80px;
     height: 50px;
 }
+
+.countDown{
+    font-size: 200px;
+}
+
+
 
 
