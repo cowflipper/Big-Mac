@@ -41,6 +41,7 @@ const inputHandler = () => {
 };
 
 const createArr = () => {
+  // newArr.push(input1.value, input2.value, input3.value, input4.value, input5.value,)
   newArr = newString.split(" ");
   console.log(newArr);
   let isEqual = true;
@@ -85,3 +86,4 @@ buttonStart.addEventListener("click", function () {
     }
   }, 1000);
 });
+
