@@ -26,7 +26,6 @@ const input2 = document.querySelector(".input2");
 const input3 = document.querySelector(".input3");
 const input4 = document.querySelector(".input4");
 const input5 = document.querySelector(".input5");
-const stringnumber = document.querySelector(".stringNumber");
 const buttonArr = document.querySelector(".btnArr");
 const buttonStart = document.querySelector(".btnStart");
 const countDown = document.querySelector(".countDown");
