@@ -21,11 +21,7 @@
 // }
 
 const bigMac = ['булка', 'огурец', 'сыр', 'котлета', 'булка'];
-const input1 = document.querySelector(".input1");
-const input2 = document.querySelector(".input2");
-const input3 = document.querySelector(".input3");
-const input4 = document.querySelector(".input4");
-const input5 = document.querySelector(".input5");
+const inputs = document.querySelectorAll(".input");
 const buttonArr = document.querySelector(".btnArr");
 const buttonStart = document.querySelector(".btnStart");
 const countDown = document.querySelector(".countDown");
@@ -34,9 +30,7 @@ let newArr = [];
 
 
 const createArr = () => {
-  newArr = [];
-  newArr.push(input1.value, input2.value, input3.value, input4.value, input5.value,)
-  console.log(newArr);
+clickHandler();
   let isEqual = true;
   function arraysEqual(arr1, arr2) {
     for (let i = 0; i < arr1.length; i++) {
@@ -78,3 +72,8 @@ buttonStart.addEventListener("click", function () {
   }, 1000);
 });
 
+function clickHandler() {
+  newArr = [];
+  inputs.forEach(input => newArr.push(input.value))
+  console.log(newArr);
+}
